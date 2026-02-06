@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(foodPrafab , transform.position, Quaternion.identity);
         }    
-        Instantiate(foodPrafab, transform.position, Quaternion.identity);
+        
     }
     private void OnDrawGizmos()
     {
